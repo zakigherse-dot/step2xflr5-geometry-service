@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: step2xflr5-geometry-service
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
